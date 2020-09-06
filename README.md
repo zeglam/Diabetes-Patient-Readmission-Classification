@@ -35,6 +35,7 @@ The main reasons for not acheiving a high classification performance is the fact
 the dataset, where 1 label (No readmission) accounts for over 60% of the data points, while another
 label (Readmitted in < 30 days) accounts for only ~8%. Another reason for low performance is
 that our target has very low correlation with all of our predectors.
+![](diabetes_Results.png)
 
 ### Future Work 
 In the future, we can try the following to improve the performance of our classifier:
