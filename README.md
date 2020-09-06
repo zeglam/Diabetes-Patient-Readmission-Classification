@@ -28,8 +28,9 @@ The main goal of this project is to design a machine learning classification sys
 
 ### Conclusion
 We have acheived the best prediction performance using Gradient Boost classifier.
-• F1 Score (micro): 0.615
-• F1 Score (macro): 0.363
+* F1 Score (micro): 0.6215
+* F1 Score (macro): 0.3612
+
 The main reasons for not acheiving a high classification performance is the fact that our labels are not palnced thoughout
 the dataset, where 1 label (No readmission) accounts for over 60% of the data points, while another
 label (Readmitted in < 30 days) accounts for only ~8%. Another reason for low performance is
@@ -39,10 +40,11 @@ that our target has very low correlation with all of our predectors.
 In the future, we can try the following to improve the performance of our classifier:
 1. combine (readmitted in < 30 days) and (readmitted in > 30 days) into one feature, and turn
 the problem in to binary classification problem (readmitted vs not readmmited) which is going to
-result in a better palanced label classes. 2. We can try selecting a subset of feature, with higher
+result in a better palanced label classes. 
+2. We can try selecting a subset of feature, with higher
 classification importance according to our classifier, and just using those in training.
 
 ### References
-• https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008
-• https://www.hindawi.com/journals/bmri/2014/781670/
-• https://www.analyticsvidhya.com/blog/2016/02/complete-guide-parameter-tuning-gradient-boosting-gbm-python
+* https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008
+* https://www.hindawi.com/journals/bmri/2014/781670/
+* https://www.analyticsvidhya.com/blog/2016/02/complete-guide-parameter-tuning-gradient-boosting-gbm-python
